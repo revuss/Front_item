@@ -38,6 +38,7 @@ function App() {
     <>
       <ThemeProvider value={{ themeMode, darkTheme, lightTheme }}>
         <AuthProvider>
+          {" "}
           <Router>
             <Routes>
               <Route path="/" element={<UserLayout />}>

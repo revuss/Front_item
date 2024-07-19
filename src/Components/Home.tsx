@@ -1,5 +1,4 @@
 import { TodoProvider } from "@/context/TodoContext";
-import React from "react";
 import AddTodo from "./Protected/AddTodo";
 import TodoList from "./Protected/TodoList";
 import { Button } from "./ui/button";

@@ -13,7 +13,9 @@ type Action =
   | { type: "ADD_TODO"; payload: string }
   | { type: "TOGGLE_TODO"; payload: number }
   | { type: "REMOVE_TODO"; payload: number };
-
+function handleRemove() {
+  alert("Item deleted");
+}
 const todoReducer = (state: State, action: Action): State => {
   switch (action.type) {
     case "ADD_TODO":

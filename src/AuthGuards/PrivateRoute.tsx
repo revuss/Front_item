@@ -5,7 +5,7 @@ const ProtectedRoute = ({ children }: { children: any }) => {
   const { isAuthenticated, loading } = useAuth();
 
   if (loading) {
-    return <div>Loading...</div>; // You can customize this to a spinner or loader component
+    return <div>Loading...</div>;
   }
 
   if (!isAuthenticated) {
